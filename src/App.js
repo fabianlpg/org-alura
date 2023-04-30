@@ -42,6 +42,32 @@ function App() {
     },
     {
       id: uuid(),
+      equipo: "Valorant",
+      foto: "https://media.valorant-api.com/playercards/99bdfb9b-4ee9-a057-5b62-b2ae6309abf8/displayicon.png",
+      nombre: "Brimstone",
+      puesto: "Controlador",
+      url: "https://media.valorant-api.com/playercards/99bdfb9b-4ee9-a057-5b62-b2ae6309abf8/largeart.png",
+      fav: true
+    },
+    {
+      id: uuid(),
+      equipo: "Valorant",
+      foto: "https://media.valorant-api.com/playercards/ca15070b-4ed8-4a4f-f1e7-aea812fd8fef/displayicon.png",
+      nombre: "Sage",
+      puesto: "Centinela",
+      url: "https://media.valorant-api.com/playercards/ca15070b-4ed8-4a4f-f1e7-aea812fd8fef/largeart.png",
+      fav: true
+    }, {
+      id: uuid(),
+      equipo: "Valorant",
+      foto: "https://media.valorant-api.com/playercards/c5e7988c-46ec-7742-f1bf-83bdc20b49d9/displayicon.png",
+      nombre: "Phoenix",
+      puesto: "Duelista",
+      url: "https://media.valorant-api.com/playercards/c5e7988c-46ec-7742-f1bf-83bdc20b49d9/largeart.png",
+      fav: true
+    },
+    {
+      id: uuid(),
       equipo: "Programación",
       foto: "https://github.com/genesysaluralatam.png",
       nombre: "Genesys Rondón",
@@ -79,6 +105,12 @@ function App() {
   ])
   //para el uso de los equipos, empieza como un arreglo
   const [equipos, actualizarEquiposColor] = useState([
+    {
+      id: uuid(),
+      titulo: "Valorant",
+      colorPrimario: "#FF4654",
+      colorFondo: "#292929",
+    },
     {
       id: uuid(),
       titulo: "Programación",
