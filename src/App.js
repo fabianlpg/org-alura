@@ -92,15 +92,6 @@ function App() {
       puesto: "Instructora en Alura Latam",
       url: "https://github.com/JeanmarieAluraLatam",
       fav: false
-    },
-    {
-      id: uuid(),
-      equipo: "Innovación y Gestión",
-      foto: "https://github.com/JoseDarioGonzalezCha.png",
-      nombre: "Jose Gonzalez",
-      puesto: "Dev FullStack",
-      url: "https://github.com/JoseDarioGonzalezCha",
-      fav: false
     }
   ])
   //para el uso de los equipos, empieza como un arreglo
