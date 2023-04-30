@@ -1,0 +1,139 @@
+.colaborador {
+    width: 280px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.colaborador .encabezado {
+    border-radius: 35px 10px 0px 0px;
+}
+
+.colaborador img {
+    width: 115px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .info {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    min-height: 100px;
+    font-family: "Monserrat", sans-serif;
+}
+
+.colaborador .info h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .info h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.elimnar {
+    color: #b10f45;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    padding: 5px;
+
+    position: absolute;
+    right: -16.5px;
+    top: -12px;
+
+    cursor: pointer;
+}
+
+
+.elimnar:hover {
+    /* duración de la animación */
+    animation: shake 0.25s;
+
+    /* Esto hace que sea infinita la animación mientras este activa */
+    animation-iteration-count: initial;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.fav {
+    cursor: pointer;
+    margin-top: 1.50rem;
+    color: #d2084b;
+
+    height: 35px;
+    width: auto;
+}
+
+.fav:hover {
+    animation: shake 0.25s;
+    animation-iteration-count: initial;
+    color: #484848;
+}
+
+.no-fav {
+    cursor: pointer;
+    margin-top: 1.50rem;
+    color: #484848;
+
+    height: 35px;
+    width: auto;
+
+    animation: zoom-in-zoom-out 3s ease-out infinite;
+}
+
+.no-fav:hover {
+    color: #d2084b;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}

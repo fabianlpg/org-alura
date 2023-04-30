@@ -1,0 +1,15 @@
+.boton_Reset {
+    background-color: #6278F7;
+    border-radius: .625rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem 2rem;
+    border: none;
+    color: #ffffff;
+    margin: 2rem 2rem;
+}
+
+.boton_Reset:hover {
+    color: #ff4989c3;
+}
